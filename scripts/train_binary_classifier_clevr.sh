@@ -1,0 +1,1 @@
+python train_classifier.py --train --spec_norm --norm --dataset clevr --lr 3e-4 --checkpoint_dir ./binary_classifier

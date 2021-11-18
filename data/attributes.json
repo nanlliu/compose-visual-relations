@@ -1,0 +1,31 @@
+{
+  "clevr": {
+    "colors": {"gray": 0, "red": 1, "blue": 2, "green": 3, "brown": 4, "purple": 5, "cyan": 6, "yellow": 7, "none": 8},
+    "shapes": {"cube": 0, "sphere": 1, "cylinder": 2, "none": 3},
+    "materials": {"rubber": 0, "metal": 1, "none": 2},
+    "sizes": {"small": 0, "large": 1, "none": 2},
+    "relations": {"left": 0, "right": 1, "front": 2, "behind": 3, "below": 4, "above": 5, "none": 6}
+  },
+  "igibson": {
+    "colors": {"blue": 0, "gray": 1, "red": 2, "maple": 3, "garden walnut": 4, "none": 5},
+    "shapes": {"sofa": 0, "coffee table": 1, "bottom cabinet": 2, "stool": 3,  "none": 4},
+    "materials": {"fabric": 0, "leather": 1, "wood": 2, "none": 3},
+    "sizes": {"large": 0, "none": 1},
+    "relations": {"left": 0, "right": 1, "front": 2, "behind": 3, "below": 4, "above": 5, "none": 6}
+  },
+  "description": {
+    "thing": ["thing"],
+    "sphere": ["sphere"],
+    "cube": ["cube"],
+    "large": ["large"],
+    "small": ["small"],
+    "metal": ["metal"],
+    "rubber": ["rubber"],
+    "left": ["to the left of"],
+    "right": ["to the right of"],
+    "behind": ["behind"],
+    "front": ["in front of"],
+    "above": ["above"],
+    "below": ["below"]
+  }
+}
