@@ -116,6 +116,11 @@ python classification_scores.py --dataset ${dataset} --checkpoint_dir ./binary_c
 --mode editing --num_rels ${num_rels}
 ```
 
+### Evaluate image-text retrieval
+```
+python retrieval.py --image_path $IMG_PATH --checkpoint_path $MODEL_PATH
+```
+
 
 ------------------------------------------------------------------------------------------------------------------------
 ### Acknowledgements
