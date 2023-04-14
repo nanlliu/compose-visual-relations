@@ -4,6 +4,11 @@ This is the pytorch codebase for the **NeurIPS 2021 Spotlight** paper
 [Learning to Compose Visual Relations](https://composevisualrelations.github.io/).
 
 
+## Data
+To generate your own relational CLEVR data, see https://github.com/nanlliu/clevr-dataset-gen.
+
+The shell script is provided: https://github.com/nanlliu/clevr-dataset-gen/blob/master/script.sh
+
 ## Demo
 ### Image Generation Demo
 Please use the following command to generate images on the CLEVR dataset. Please use `--num_rels` to control the input relational descriptions.
